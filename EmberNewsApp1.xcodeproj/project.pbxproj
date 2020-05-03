@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91104588245E2D1F00711BA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91104587245E2D1F00711BA2 /* AppDelegate.swift */; };
+		9110458A245E2D1F00711BA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91104589245E2D1F00711BA2 /* SceneDelegate.swift */; };
+		9110458C245E2D1F00711BA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9110458B245E2D1F00711BA2 /* ContentView.swift */; };
+		9110458E245E2D2000711BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9110458D245E2D2000711BA2 /* Assets.xcassets */; };
+		91104591245E2D2000711BA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91104590245E2D2000711BA2 /* Preview Assets.xcassets */; };
+		9110459F245E2D2000711BA2 /* EmberNewsApp1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9110459E245E2D2000711BA2 /* EmberNewsApp1Tests.swift */; };
+		911045AA245E2D2000711BA2 /* EmberNewsApp1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911045A9245E2D2000711BA2 /* EmberNewsApp1UITests.swift */; };
+		911045B8245E2DDC00711BA2 /* UrlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911045B7245E2DDC00711BA2 /* UrlImageView.swift */; };
+		911045BA245E2E1700711BA2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911045B9245E2E1700711BA2 /* DetailView.swift */; };
+		911045BC245E2E4700711BA2 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911045BB245E2E4700711BA2 /* WebView.swift */; };
+		911045BE245E2E9700711BA2 /* NetworkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911045BD245E2E9700711BA2 /* NetworkManger.swift */; };
+		911045C0245E2ECE00711BA2 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911045BF245E2ECE00711BA2 /* PostData.swift */; };
+		911045C2245E2F3600711BA2 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911045C1245E2F3600711BA2 /* ImageLoader.swift */; };
+		913AFEB8245E539A000DDD79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 913AFEB7245E539A000DDD79 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9110459B245E2D2000711BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9110457C245E2D1F00711BA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91104583245E2D1F00711BA2;
+			remoteInfo = EmberNewsApp1;
+		};
+		911045A6245E2D2000711BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9110457C245E2D1F00711BA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91104583245E2D1F00711BA2;
+			remoteInfo = EmberNewsApp1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91104584245E2D1F00711BA2 /* EmberNewsApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmberNewsApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91104587245E2D1F00711BA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91104589245E2D1F00711BA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9110458B245E2D1F00711BA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9110458D245E2D2000711BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91104590245E2D2000711BA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91104595245E2D2000711BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9110459A245E2D2000711BA2 /* EmberNewsApp1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmberNewsApp1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9110459E245E2D2000711BA2 /* EmberNewsApp1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmberNewsApp1Tests.swift; sourceTree = "<group>"; };
+		911045A0245E2D2000711BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		911045A5245E2D2000711BA2 /* EmberNewsApp1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmberNewsApp1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		911045A9245E2D2000711BA2 /* EmberNewsApp1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmberNewsApp1UITests.swift; sourceTree = "<group>"; };
+		911045AB245E2D2000711BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		911045B7245E2DDC00711BA2 /* UrlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlImageView.swift; sourceTree = "<group>"; };
+		911045B9245E2E1700711BA2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		911045BB245E2E4700711BA2 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		911045BD245E2E9700711BA2 /* NetworkManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManger.swift; sourceTree = "<group>"; };
+		911045BF245E2ECE00711BA2 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		911045C1245E2F3600711BA2 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		913AFEB7245E539A000DDD79 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91104581245E2D1F00711BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91104597245E2D2000711BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911045A2245E2D2000711BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9110457B245E2D1F00711BA2 = {
+			isa = PBXGroup;
+			children = (
+				9123B516245F507B004F30B1 /* Model */,
+				9123B515245F5057004F30B1 /* Views */,
+				91104586245E2D1F00711BA2 /* EmberNewsApp1 */,
+				9110459D245E2D2000711BA2 /* EmberNewsApp1Tests */,
+				911045A8245E2D2000711BA2 /* EmberNewsApp1UITests */,
+				91104585245E2D1F00711BA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91104585245E2D1F00711BA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91104584245E2D1F00711BA2 /* EmberNewsApp1.app */,
+				9110459A245E2D2000711BA2 /* EmberNewsApp1Tests.xctest */,
+				911045A5245E2D2000711BA2 /* EmberNewsApp1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91104586245E2D1F00711BA2 /* EmberNewsApp1 */ = {
+			isa = PBXGroup;
+			children = (
+				91104587245E2D1F00711BA2 /* AppDelegate.swift */,
+				91104589245E2D1F00711BA2 /* SceneDelegate.swift */,
+				9110458D245E2D2000711BA2 /* Assets.xcassets */,
+				913AFEB7245E539A000DDD79 /* LaunchScreen.storyboard */,
+				91104595245E2D2000711BA2 /* Info.plist */,
+				9110458F245E2D2000711BA2 /* Preview Content */,
+			);
+			path = EmberNewsApp1;
+			sourceTree = "<group>";
+		};
+		9110458F245E2D2000711BA2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91104590245E2D2000711BA2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9110459D245E2D2000711BA2 /* EmberNewsApp1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9110459E245E2D2000711BA2 /* EmberNewsApp1Tests.swift */,
+				911045A0245E2D2000711BA2 /* Info.plist */,
+			);
+			path = EmberNewsApp1Tests;
+			sourceTree = "<group>";
+		};
+		911045A8245E2D2000711BA2 /* EmberNewsApp1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				911045A9245E2D2000711BA2 /* EmberNewsApp1UITests.swift */,
+				911045AB245E2D2000711BA2 /* Info.plist */,
+			);
+			path = EmberNewsApp1UITests;
+			sourceTree = "<group>";
+		};
+		9123B515245F5057004F30B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9110458B245E2D1F00711BA2 /* ContentView.swift */,
+				911045B7245E2DDC00711BA2 /* UrlImageView.swift */,
+				911045BB245E2E4700711BA2 /* WebView.swift */,
+				911045C1245E2F3600711BA2 /* ImageLoader.swift */,
+				911045B9245E2E1700711BA2 /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9123B516245F507B004F30B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				911045BD245E2E9700711BA2 /* NetworkManger.swift */,
+				911045BF245E2ECE00711BA2 /* PostData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91104583245E2D1F00711BA2 /* EmberNewsApp1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 911045AE245E2D2000711BA2 /* Build configuration list for PBXNativeTarget "EmberNewsApp1" */;
+			buildPhases = (
+				91104580245E2D1F00711BA2 /* Sources */,
+				91104581245E2D1F00711BA2 /* Frameworks */,
+				91104582245E2D1F00711BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmberNewsApp1;
+			productName = EmberNewsApp1;
+			productReference = 91104584245E2D1F00711BA2 /* EmberNewsApp1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91104599245E2D2000711BA2 /* EmberNewsApp1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 911045B1245E2D2000711BA2 /* Build configuration list for PBXNativeTarget "EmberNewsApp1Tests" */;
+			buildPhases = (
+				91104596245E2D2000711BA2 /* Sources */,
+				91104597245E2D2000711BA2 /* Frameworks */,
+				91104598245E2D2000711BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9110459C245E2D2000711BA2 /* PBXTargetDependency */,
+			);
+			name = EmberNewsApp1Tests;
+			productName = EmberNewsApp1Tests;
+			productReference = 9110459A245E2D2000711BA2 /* EmberNewsApp1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		911045A4245E2D2000711BA2 /* EmberNewsApp1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 911045B4245E2D2000711BA2 /* Build configuration list for PBXNativeTarget "EmberNewsApp1UITests" */;
+			buildPhases = (
+				911045A1245E2D2000711BA2 /* Sources */,
+				911045A2245E2D2000711BA2 /* Frameworks */,
+				911045A3245E2D2000711BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				911045A7245E2D2000711BA2 /* PBXTargetDependency */,
+			);
+			name = EmberNewsApp1UITests;
+			productName = EmberNewsApp1UITests;
+			productReference = 911045A5245E2D2000711BA2 /* EmberNewsApp1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9110457C245E2D1F00711BA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Tsahai Clahar";
+				TargetAttributes = {
+					91104583245E2D1F00711BA2 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					91104599245E2D2000711BA2 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 91104583245E2D1F00711BA2;
+					};
+					911045A4245E2D2000711BA2 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 91104583245E2D1F00711BA2;
+					};
+				};
+			};
+			buildConfigurationList = 9110457F245E2D1F00711BA2 /* Build configuration list for PBXProject "EmberNewsApp1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9110457B245E2D1F00711BA2;
+			productRefGroup = 91104585245E2D1F00711BA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91104583245E2D1F00711BA2 /* EmberNewsApp1 */,
+				91104599245E2D2000711BA2 /* EmberNewsApp1Tests */,
+				911045A4245E2D2000711BA2 /* EmberNewsApp1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91104582245E2D1F00711BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913AFEB8245E539A000DDD79 /* LaunchScreen.storyboard in Resources */,
+				91104591245E2D2000711BA2 /* Preview Assets.xcassets in Resources */,
+				9110458E245E2D2000711BA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91104598245E2D2000711BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911045A3245E2D2000711BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91104580245E2D1F00711BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91104588245E2D1F00711BA2 /* AppDelegate.swift in Sources */,
+				911045C0245E2ECE00711BA2 /* PostData.swift in Sources */,
+				9110458A245E2D1F00711BA2 /* SceneDelegate.swift in Sources */,
+				911045BE245E2E9700711BA2 /* NetworkManger.swift in Sources */,
+				911045B8245E2DDC00711BA2 /* UrlImageView.swift in Sources */,
+				911045C2245E2F3600711BA2 /* ImageLoader.swift in Sources */,
+				911045BC245E2E4700711BA2 /* WebView.swift in Sources */,
+				911045BA245E2E1700711BA2 /* DetailView.swift in Sources */,
+				9110458C245E2D1F00711BA2 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91104596245E2D2000711BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9110459F245E2D2000711BA2 /* EmberNewsApp1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911045A1245E2D2000711BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911045AA245E2D2000711BA2 /* EmberNewsApp1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9110459C245E2D2000711BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91104583245E2D1F00711BA2 /* EmberNewsApp1 */;
+			targetProxy = 9110459B245E2D2000711BA2 /* PBXContainerItemProxy */;
+		};
+		911045A7245E2D2000711BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91104583245E2D1F00711BA2 /* EmberNewsApp1 */;
+			targetProxy = 911045A6245E2D2000711BA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		911045AC245E2D2000711BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		911045AD245E2D2000711BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		911045AF245E2D2000711BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EmberNewsApp1/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EmberNewsApp1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsahaiclahar.EmberNewsApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		911045B0245E2D2000711BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EmberNewsApp1/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EmberNewsApp1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsahaiclahar.EmberNewsApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		911045B2245E2D2000711BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmberNewsApp1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsahaiclahar.EmberNewsApp1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmberNewsApp1.app/EmberNewsApp1";
+			};
+			name = Debug;
+		};
+		911045B3245E2D2000711BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmberNewsApp1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsahaiclahar.EmberNewsApp1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmberNewsApp1.app/EmberNewsApp1";
+			};
+			name = Release;
+		};
+		911045B5245E2D2000711BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmberNewsApp1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsahaiclahar.EmberNewsApp1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmberNewsApp1;
+			};
+			name = Debug;
+		};
+		911045B6245E2D2000711BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmberNewsApp1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsahaiclahar.EmberNewsApp1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmberNewsApp1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9110457F245E2D1F00711BA2 /* Build configuration list for PBXProject "EmberNewsApp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911045AC245E2D2000711BA2 /* Debug */,
+				911045AD245E2D2000711BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		911045AE245E2D2000711BA2 /* Build configuration list for PBXNativeTarget "EmberNewsApp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911045AF245E2D2000711BA2 /* Debug */,
+				911045B0245E2D2000711BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		911045B1245E2D2000711BA2 /* Build configuration list for PBXNativeTarget "EmberNewsApp1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911045B2245E2D2000711BA2 /* Debug */,
+				911045B3245E2D2000711BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		911045B4245E2D2000711BA2 /* Build configuration list for PBXNativeTarget "EmberNewsApp1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911045B5245E2D2000711BA2 /* Debug */,
+				911045B6245E2D2000711BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9110457C245E2D1F00711BA2 /* Project object */;
+}
